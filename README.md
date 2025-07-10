@@ -1,36 +1,43 @@
 # HHH_MVC_StudenEnrollDemo
+A lightweight ASP.NET MVC web application for student registration and course listing. Built using Razor Views, Bootstrap 5, and DataTables.js with in-memory data — no database setup required.
 
-A lightweight ASP.NET MVC web application for student enrollment and course management. Built using Razor views, Bootstrap 5, and DataTables.js — without any database dependency.
-
-## 🚀 Features
-
-- ✅ **Student Registration Form**
-  - Collects Name, Email, Date of Birth, and Course Interested
-  - Validates input on client and server side
-
-- ✅ **Course List Page**
-  - Displays available courses (in-memory)
-  - Uses **DataTables.js** for sorting, searching, pagination
+ 🚀 Features
+- ✅ **Student Registration Page**
+  - Collects Name, Email, DOB, and Course
+  - Validates inputs using Razor & HTML5
 
 - ✅ **Student List Page**
-  - Shows registered students from in-memory store
-  - Dynamic table with responsive Bootstrap styling
+  - Shows all registered students in a responsive table
+  - Powered by **DataTables.js** with pagination, sorting, and search
 
-- ✅ **No Database Required**
-  - All data stored temporarily in memory for quick demo/testing
+- ✅ **Course List Page**
+  - Displays available courses stored in memory
+  - Searchable & paginated using **DataTables.js**
 
----
+- ✅ **In-Memory Data**
+  - No database required
+  - Ideal for prototyping and showcasing MVC skills
 
-## 🛠️ Technologies Used
+ 🛠️ Built With
+- ASP.NET MVC 5 (Visual Studio 2017)
+- C#
+- Razor Views
+- Bootstrap 5
+- DataTables.js
+- jQuery
 
-- **ASP.NET MVC 5**
-- **C#**
-- **Razor Views**
-- **Bootstrap 5**
-- **DataTables.js**
-- **jQuery**
-- **Visual Studio 2017**
+ 💡 How to Run
+1. Clone or download this repository
+2. Open `HHH_MVC_StudenEnrollDemo.sln` in **Visual Studio 2017**
+3. Build and run the project
+4. Navigate to:
+   - `/Student/Register` – Student form  
+   - `/Student/List` – Student table  
+   - `/Course/Index` – Course list
+This project is for personal, educational, and demo use only. Feel free to reuse or extend it.
 
----
-
-## 📂 Project Structure
+## 🙋‍♂️ Author
+**Htwe Htwe Hlaing**  
+🧑‍💻 .NET Developer  
+📧 [htwehtwehlaing.93@example.com]  
+🔗 [LinkedIn](https://www.linkedin.com/in/htwe-htwe-hlaing-37140a338) | [GitHub](https://github.com/htwehtwehlaing-codes)
